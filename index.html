@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>il frutto</title>
+  <link rel="stylesheet" href="FRUTTO.css">
+  <link rel="shortcut icon" href="header_graphic.png">
+  <link rel="apple-touch-icon" href="header_graphic.png">
+  <script type="text/javascript" src="jquery.js"></script>
+</head>
+
+<body>
+
+  <nav class="nav">
+    <div class="wrapper navWrapper">
+      <h1>il frutto</h1>
+      <ul class="navList">
+        <li>
+          <a href="#date">Date</a>
+        </li>
+        <li>
+          <a href="#foto">Foto</a>
+        </li>
+        <li>
+          <a href="#listen">Listen</a>
+        </li>
+      </ul>
+
+      <ul class="navList">
+        <li>
+          <a target="_blank" href="https://www.facebook.com/ilfruttolaband/" class="socialLink--link">
+            <svg width="10" height="19" viewBox="0 0 10 19" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.864.138v3.014h-1.79c-.656 0-1.096.138-1.325.41-.23.275-.344.686-.344 1.235v2.157h3.346l-.446 3.38h-2.9V19H2.912v-8.666H0v-3.38h2.912v-2.49c0-1.414.396-2.514 1.19-3.293C4.89.393 5.945 0 7.26 0c1.12 0 1.986.047 2.602.138z" fill="#000" fill-rule="nonzero">
+              </path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="graphic"></div>
+    <div class="headerTitle">
+      Quando la Brianza
+      <br>
+      incontra il Punk
+    </div>
+  </header>
+
+  <section class="tour navyTheme" id="date">
+    <div class="wrapper">
+      <h2 class="sectionTitle">Date</h2>
+      <div class="bit-widget-container">
+
+        <div class="event1">
+          <ul class="tourList">
+            <li>28 May 2016</li>
+            <li>il frutto live</li>
+            <li>monza</li>
+          </ul>
+        </div>
+
+        <div class="event2">
+          <ul class="tourList">
+            <li>08 Apr 2017</li>
+            <li>Live Malkovic</li>
+            <li>Agrate Brianza</li>
+          </ul>
+        </div>
+
+        <div class="event3">
+          <ul class="tourList">
+            <li>06 Jun 2017</li>
+            <li>Festa Candia</li>
+            <li>Seregno</li>
+          </ul>
+        </div>
+
+        <div class="event4">
+          <ul class="tourList">
+            <li>14 Dec 2017</li>
+            <li>Irish Pub_Live</li>
+            <li>Seregno</li>
+          </ul>
+        </div>
+
+        <div class="event5">
+          <ul class="tourList">
+            <li>17 Feb 2018</li>
+            <li>NO AU</li>
+            <li>Milano</li>
+          </ul>
+        </div>
+
+        <div class="event6">
+          <ul class="tourList">
+            <li>--</li>
+            <li>-----</li>
+            <li>---</li>
+          </ul>
+        </div>
+
+        <div class="event7">
+          <ul class="tourList">
+            <li>--</li>
+            <li>-----</li>
+            <li>---</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="photo-wrapper" id="foto">
+    <div id="testo"></div>
+    <div id="photo1"></div>
+    <div id="photo2"></div>
+    <div id="photo3"></div>
+  </div>
+
+  <div class="merchandising" id="listen">
+
+
+  </div>
+
+  <script>
+  function Appare2(){
+  $("#photo1").addClass("scompare1"),
+  $("#photo2").addClass("appare2");
+  }
+
+  function Appare3() {
+  $("#photo1").addClass("riscompare1"),
+  $("#photo2").removeClass("appare2"),
+  $("#photo3").addClass("appare3");
+  }
+
+  function Normale() {
+  $("#photo1").removeClass("riscompare1"),
+  $("#photo3").removeClass("appare3"),
+  $("#photo1").removeClass("scompare1");
+  }
+
+  function click() {
+  if($("#photo1").hasClass("riscompare1"))
+   {Normale();}
+  else
+  if($("#photo1").hasClass("scompare1"))
+    {Appare3();}
+  else
+  Appare2();
+  }
+
+  $("#photo1").click(click)
+  </script>
+
+</body>
+
+</html>
