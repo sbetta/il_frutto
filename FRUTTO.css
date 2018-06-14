@@ -338,7 +338,7 @@ body {
   top: 0;
   left: 0;
   margin: 0px;
-  background: url(fotouno.JPG) center;
+  background: url(photo1.jpg) center;
   z-index: 1;
 }
 
@@ -349,7 +349,7 @@ body {
   top: 0;
   left: 0;
   margin: 0px;
-  background: url(fotodue.JPG) center;
+  background: url(photo2.jpg) center;
   opacity: 0;
 }
 
@@ -360,7 +360,7 @@ body {
     top: 0;
     left: 0;
     margin: 0px;
-    background: url(fototre.jpg) center;
+    background: url(photo3.jpg) center;
     opacity: 0;
 }
 
