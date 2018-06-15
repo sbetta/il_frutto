@@ -198,7 +198,7 @@ body {
 
 .tour {
     padding: 50px 0;
-    position: relative
+    position: relative;
 }
 
 .navyTheme {
@@ -221,7 +221,7 @@ body {
 }
 
 .event1 {
-  width: 900px;
+  width: 940px;
   height: 65px;
   padding: 15px 0;
 }
@@ -332,7 +332,7 @@ body {
 }
 
 #photo1 {
-  position:absolute;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -343,7 +343,7 @@ body {
 }
 
 #photo2 {
-  position:absolute;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -354,7 +354,7 @@ body {
 }
 
 #photo3 {
-  position:absolute;
+  position: absolute;
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -394,4 +394,132 @@ body {
 }
 .riscompare1 {
   animation: risparizione1 0.01s forwards;
+}
+
+.merch .merchTheme {
+  background: #384248;
+  color: #384248;
+  position: relative;
+}
+
+.merch {
+  padding: 50px 0;
+  position: relative;
+}
+
+.merchTheme .merchTitle {
+  color: #b99f69;
+}
+
+.merchTitle {
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: .9em;
+  text-indent: .9em;
+  margin-bottom: 30px;
+  font-family: 'Maax';
+}
+
+.merchline1 {
+  position: relative;
+  width: 1000px;
+  height: 250px;
+  padding: 15px 15px;
+}
+
+.merch1 {
+  position: absolute;
+  left: 0%;
+  top: 0px;
+  margin: 0px;
+  height: 220px;
+  width: 221px;
+  background: url(merch1.png) center no-repeat;
+  z-index: 1;
+  border-style: solid;
+  border-color: #384248;
+  border-width: 2.5px;
+  border-radius: 5px;
+}
+
+.merch2 {
+  position: absolute;
+  left: 25%;
+  top: 0px;
+  margin: 0px;
+  height: 220px;
+  width: 221px;
+  background: url(merch2.png) center no-repeat;
+  z-index: 1;
+  border-style: solid;
+  border-color: #384248;
+  border-width: 2.5px;
+  border-radius: 5px;
+}
+
+.merch3 {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  margin: 0px;
+  height: 220px;
+  width: 221px;
+  background: url(merch3.png) center no-repeat;
+  z-index: 1;
+  border-style: solid;
+  border-color: #384248;
+  border-width: 2.5px;
+  border-radius: 5px;
+}
+
+.merch4 {
+  position: absolute;
+  left: 75%;
+  top: 0px;
+  margin: 0px;
+  height: 220px;
+  width: 221px;
+  background: url(merch1.png) center no-repeat;
+  z-index: 1;
+  border-style: solid;
+  border-color: #384248;
+  border-width: 2.5px;
+  border-radius: 5px;
+}
+
+.chisiamo .chisiamoTheme {
+  background-color: #384248;
+  color: #f7f3e7;
+  position: relative;
+  z-index: 1;
+}
+
+.chisiamoTheme {
+  background: #384248;
+  color: #f7f3e7;
+  position: relative;
+}
+
+.chisiamo {
+  padding: 50px 0;
+  position: relative;
+}
+
+.chisiamoTheme .chisiamoTitle {
+  color: #b99f69;
+}
+
+.chisiamoTitle {
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: .9em;
+  text-indent: .9em;
+  margin-bottom: 30px;
+  font-family: 'Maax';
+}
+
+.chisiamoText {
+  width: 940px;
+  height: 200px;
+  padding: 15px 0;
 }
