@@ -122,6 +122,16 @@
     <div id="photo1"></div>
     <div id="photo2"></div>
     <div id="photo3"></div>
+    <div id="photo4"></div>
+    <div id="photo5"></div>
+    <div id="photo6"></div>
+    <div id="photo7"></div>
+    <div id="photo8"></div>
+    <div id="photo9"></div>
+    <div id="photo10"></div>
+    <div id="photo11"></div>
+    <div id="photo12"></div>
+    <div id="photo13"></div>
   </div>
 
   <div class="merch merchTheme" id="grafica">
@@ -169,20 +179,122 @@
   $("#photo3").addClass("appare3");
   }
 
-  function Normale() {
-  $("#photo1").removeClass("riscompare1"),
+  function Appare4() {
+  $("#photo1").addClass("riscompare1"),
   $("#photo3").removeClass("appare3"),
+  $("#photo4").addClass("appare4");
+  }
+
+  function Appare5() {
+  $("#photo1").addClass("riscompare1"),
+  $("#photo4").removeClass("appare4"),
+  $("#photo5").addClass("appare5");
+  }
+
+  function Appare6() {
+  $("#photo1").addClass("riscompare1"),
+  $("#photo5").removeClass("appare5"),
+  $("#photo6").addClass("appare6");
+  }
+
+  function Appare7() {
+  $("#photo1").addClass("riscompare1"),
+  $("#photo6").removeClass("appare6"),
+  $("#photo7").addClass("appare7");
+  }
+
+  function Appare8() {
+  $("#photo1").addClass("riscompare1"),
+  $("#photo7").removeClass("appare7"),
+  $("#photo8").addClass("appare8");
+  }
+
+  function Appare9() {
+  $("#photo1").addClass("riscompare1"),
+  $("#photo8").removeClass("appare8"),
+  $("#photo9").addClass("appare9");
+  }
+
+  function Appare10() {
+  $("#photo1").addClass("riscompare1"),
+  $("#photo9").removeClass("appare9"),
+  $("#photo10").addClass("appare10");
+  }
+
+  function Appare11() {
+  $("#photo1").addClass("riscompare1"),
+  $("#photo10").removeClass("appare10"),
+  $("#photo11").addClass("appare11");
+  }
+
+  function Appare12() {
+  $("#photo1").addClass("riscompare1"),
+  $("#photo11").removeClass("appare11"),
+  $("#photo12").addClass("appare12");
+  }
+
+  function Appare13() {
+  $("#photo1").addClass("riscompare1"),
+  $("#photo12").removeClass("appare12"),
+  $("#photo13").addClass("appare13");
+  }
+
+  function CasaBase() {
+  $("#photo1").removeClass("riscompare1"),
+  $("#photo13").removeClass("appare13"),
   $("#photo1").removeClass("scompare1");
   }
 
   function click() {
-  if($("#photo1").hasClass("riscompare1"))
-   {Normale();}
-  else
-  if($("#photo1").hasClass("scompare1"))
-    {Appare3();}
-  else
-  Appare2();
+    if ($("#photo13").hasClass("appare13")) {
+      CasaBase();
+    } else {
+      if ($("#photo12").hasClass("appare12")) {
+        Appare13();
+      } else {
+        if ($("#photo11").hasClass("appare11")) {
+          Appare12();
+        } else {
+          if ($("#photo10").hasClass("appare10")) {
+            Appare11();
+          } else {
+            if ($("#photo9").hasClass("appare9")) {
+              Appare10();
+            } else {
+              if ($("#photo8").hasClass("appare8")) {
+                Appare9();
+              } else {
+                if ($("#photo7").hasClass("appare7")) {
+                  Appare8();
+                } else {
+                  if ($("#photo6").hasClass("appare6")) {
+                    Appare7();
+                  } else {
+                    if ($("#photo5").hasClass("appare5")) {
+                      Appare6();
+                    } else {
+                      if ($("#photo4").hasClass("appare4")) {
+                        Appare5();
+                      } else {
+                        if ($("#photo3").hasClass("appare3")) {
+                          Appare4();
+                        } else {
+                          if ($("#photo2").hasClass("appare2")) {
+                            Appare3();
+                          } else {
+                              Appare2();
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   $("#photo1").click(click)

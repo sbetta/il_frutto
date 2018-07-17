@@ -57,20 +57,20 @@ table {
 }
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body {
     background: #f7f3e7;
     font-family: 'Maax';
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .wrapper {
     max-width: 960px;
     width: 100%;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .nav {
@@ -83,7 +83,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     font-size: .75em;
-    padding-top: 3px
+    padding-top: 3px;
 }
 
 @media (max-width:600px) {
@@ -108,12 +108,12 @@ body {
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: justify;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .navList {
     display: -ms-flexbox;
-    display: flex
+    display: flex;
 }
 
 .navList li {
@@ -123,20 +123,20 @@ body {
 .navList a {
     color: #f7f3e7;
     text-decoration: none;
-    transition: all 110ms ease-out
+    transition: all 110ms ease-out;
 }
 
 .navList a:hover {
-    color: #b99f69
+    color: #b99f69;
 }
 
 .navList a path {
     fill: #f7f3e7;
-    transition: all 110ms ease-out
+    transition: all 110ms ease-out;
 }
 
 .navList a:hover path {
-    fill: #b99f69
+    fill: #b99f69;
 }
 
 .header {
@@ -151,7 +151,7 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
 }
 
 @media (max-width:600px) {
@@ -169,7 +169,7 @@ body {
     max-height: 65vh;
     min-height: 371px;
     background: url(header_graphic.png) no-repeat center;
-    background-size: contain
+    background-size: contain;
 }
 
 @media (max-width:600px) {
@@ -187,7 +187,7 @@ body {
     text-align: center;
     line-height: 1.3;
     text-indent: .6rem;
-    font-family: 'Maax'
+    font-family: 'Maax';
 }
 
 @media (max-width:600px) {
@@ -208,7 +208,7 @@ body {
 }
 
 .navyTheme .sectionTitle {
-    color: #b99f69
+    color: #b99f69;
 }
 
 .sectionTitle {
@@ -217,7 +217,7 @@ body {
     letter-spacing: .9em;
     text-indent: .9em;
     margin-bottom: 30px;
-    font-family: 'Maax'
+    font-family: 'Maax';
 }
 
 .event1 {
@@ -367,36 +367,236 @@ body {
     cursor: pointer;
 }
 
-@keyframes sparizione1 {
+#photo4 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  background: url(fotoquattro.JPG) center no-repeat;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#photo5 {
+  position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    background: url(fotocinque.JPG) center no-repeat;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#photo6 {
+  position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    background: url(fotosei.JPG) center no-repeat;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#photo7 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  background: url(fotosette.JPG) center no-repeat;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#photo8 {
+  position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    background: url(fotootto.JPG) center no-repeat;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#photo9 {
+  position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    background: url(fotonove.JPG) center no-repeat;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#photo10 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  background: url(fotodieci.JPG) center no-repeat;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#photo11 {
+  position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    background: url(fotoundici.JPG) center no-repeat;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#photo12 {
+  position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    background: url(fotododici.JPG) center no-repeat;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#photo13 {
+  position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    background: url(fototredici.JPG) center no-repeat;
+    opacity: 0;
+    cursor: pointer;
+}
+
+@keyframes scompare1 {
   from{opacity: 1;}
   to{opacity: 0;}
 }
 .scompare1 {
-  animation: sparizione1 0.01s forwards;
+  animation: scompare1 0.01s forwards;
 }
 
-@keyframes apparizione2 {
+@keyframes appare2 {
   from{opacity: 0;}
   to{opacity: 1;}
 }
 .appare2{
-  animation: apparizione2 0.1s forwards;
+  animation: appare2 0.1s forwards;
 }
 
-@keyframes apparizione3 {
+@keyframes appare3 {
   from{opacity: 0;}
   to{opacity: 1;}
 }
 .appare3{
-  animation: apparizione3 0.1s forwards;
+  animation: appare3 0.1s forwards;
 }
 
-@keyframes risparizione1 {
+@keyframes appare4 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.appare4{
+  animation: appare4 0.1s forwards;
+}
+
+@keyframes appare5 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.appare5{
+  animation: appare5 0.1s forwards;
+}
+
+@keyframes appare6 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.appare6{
+  animation: appare6 0.1s forwards;
+}
+
+@keyframes appare7 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.appare7{
+  animation: appare7 0.1s forwards;
+}
+
+@keyframes appare8 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.appare8{
+  animation: appare8 0.1s forwards;
+}
+
+@keyframes appare9 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.appare9{
+  animation: appare9 0.1s forwards;
+}
+
+@keyframes appare10 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.appare10{
+  animation: appare10 0.1s forwards;
+}
+
+@keyframes appare11 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.appare11{
+  animation: appare11 0.1s forwards;
+}
+
+@keyframes appare12 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.appare12{
+  animation: appare12 0.1s forwards;
+}
+
+@keyframes appare13 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.appare13{
+  animation: appare12 0.1s forwards;
+}
+
+@keyframes riscompare1 {
   from{opacity: 0;}
   to{opacity: 0;}
 }
 .riscompare1 {
-  animation: risparizione1 0.01s forwards;
+  animation: riscompare1 0.01s forwards;
 }
 
 .merch .merchTheme {
